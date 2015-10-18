@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="app">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -31,166 +31,7 @@
         </div><!-- /.container -->
     </nav>
 
-    <div class="container">
-        <div id="products" class="row list-group">
-            <div class="col-md-3">
-                <div class="well well-sm">
-                
-                </div>
-            </div>
-
-            <div class="col-md-9">
-                <div class="well well-sm">
-                    <div class="row">
-                        <div class="col-md-8">
-                            <form class="form-inline">
-                                <div class="form-group">
-                                    <select class="form-control">
-                                        <option disabled selected>ordenar por...</option>
-                                        <option>maior preço</option>
-                                        <option>meno preço</option>
-                                    </select>
-                                </div>
-
-                                <div class="form-group">
-                                    <input type="text" class="form-control col-xs-12" placeholder="filtrar...">
-                                </div>
-                            </form>
-                        </div>
-
-                        <div class="col-md-4">
-                            <div class="btn-group pull-right">
-                                <a href="#" id="list" class="btn btn-default btn-sm"><span class="glyphicon glyphicon-th-list"></span></a>
-                                <a href="#" id="grid" class="btn btn-default btn-sm"><span class="glyphicon glyphicon-th"></span></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="item  col-xs-4 col-lg-4">
-                        <div class="thumbnail">
-                            <img class="group list-group-image" src="images/demo1.jpg" alt="" />
-                            <div class="caption">
-                                <h4 class="group inner list-group-item-heading">Lorem ipsum dolor sit.</h4>
-                                <p class="group inner list-group-item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel nostrum adipisci ipsam dolore ullam aperiam autem nesciunt soluta. Rerum illo facilis accusantium quis ducimus earum cumque provident porro nihil quo.</p>
-                                <div class="row">
-                                    <div class="col-xs-12 col-md-6">
-                                        <p class="lead">R$999.999,00</p>
-                                    </div>
-                                    <div class="col-xs-12 col-md-6">
-                                        <a class="btn btn-success">Veja mais</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div><!-- /.item -->
-                    <div class="item  col-xs-4 col-lg-4">
-                        <div class="thumbnail">
-                            <img class="group list-group-image" src="images/demo1.jpg" alt="" />
-                            <div class="caption">
-                                <h4 class="group inner list-group-item-heading">Lorem ipsum dolor sit.</h4>
-                                <p class="group inner list-group-item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel nostrum adipisci ipsam dolore ullam aperiam autem nesciunt soluta. Rerum illo facilis accusantium quis ducimus earum cumque provident porro nihil quo.</p>
-                                <div class="row">
-                                    <div class="col-xs-12 col-md-6">
-                                        <p class="lead">R$999.999,00</p>
-                                    </div>
-                                    <div class="col-xs-12 col-md-6">
-                                        <a class="btn btn-success">Veja mais</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div><!-- /.item -->
-                    <div class="item  col-xs-4 col-lg-4">
-                        <div class="thumbnail">
-                            <img class="group list-group-image" src="images/demo1.jpg" alt="" />
-                            <div class="caption">
-                                <h4 class="group inner list-group-item-heading">Lorem ipsum dolor sit.</h4>
-                                <p class="group inner list-group-item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel nostrum adipisci ipsam dolore ullam aperiam autem nesciunt soluta. Rerum illo facilis accusantium quis ducimus earum cumque provident porro nihil quo.</p>
-                                <div class="row">
-                                    <div class="col-xs-12 col-md-6">
-                                        <p class="lead">R$999.999,00</p>
-                                    </div>
-                                    <div class="col-xs-12 col-md-6">
-                                        <a class="btn btn-success">Veja mais</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div><!-- /.item -->
-                    <div class="item  col-xs-4 col-lg-4">
-                        <div class="thumbnail">
-                            <img class="group list-group-image" src="images/demo1.jpg" alt="" />
-                            <div class="caption">
-                                <h4 class="group inner list-group-item-heading">Lorem ipsum dolor sit.</h4>
-                                <p class="group inner list-group-item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel nostrum adipisci ipsam dolore ullam aperiam autem nesciunt soluta. Rerum illo facilis accusantium quis ducimus earum cumque provident porro nihil quo.</p>
-                                <div class="row">
-                                    <div class="col-xs-12 col-md-6">
-                                        <p class="lead">R$999.999,00</p>
-                                    </div>
-                                    <div class="col-xs-12 col-md-6">
-                                        <a class="btn btn-success">Veja mais</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div><!-- /.item -->
-                    <div class="item  col-xs-4 col-lg-4">
-                        <div class="thumbnail">
-                            <img class="group list-group-image" src="images/demo1.jpg" alt="" />
-                            <div class="caption">
-                                <h4 class="group inner list-group-item-heading">Lorem ipsum dolor sit.</h4>
-                                <p class="group inner list-group-item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel nostrum adipisci ipsam dolore ullam aperiam autem nesciunt soluta. Rerum illo facilis accusantium quis ducimus earum cumque provident porro nihil quo.</p>
-                                <div class="row">
-                                    <div class="col-xs-12 col-md-6">
-                                        <p class="lead">R$999.999,00</p>
-                                    </div>
-                                    <div class="col-xs-12 col-md-6">
-                                        <a class="btn btn-success">Veja mais</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div><!-- /.item -->
-                    <div class="item  col-xs-4 col-lg-4">
-                        <div class="thumbnail">
-                            <img class="group list-group-image" src="images/demo1.jpg" alt="" />
-                            <div class="caption">
-                                <h4 class="group inner list-group-item-heading">Lorem ipsum dolor sit.</h4>
-                                <p class="group inner list-group-item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel nostrum adipisci ipsam dolore ullam aperiam autem nesciunt soluta. Rerum illo facilis accusantium quis ducimus earum cumque provident porro nihil quo.</p>
-                                <div class="row">
-                                    <div class="col-xs-12 col-md-6">
-                                        <p class="lead">R$999.999,00</p>
-                                    </div>
-                                    <div class="col-xs-12 col-md-6">
-                                        <a class="btn btn-success">Veja mais</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div><!-- /.item -->
-                    <div class="item  col-xs-4 col-lg-4">
-                        <div class="thumbnail">
-                            <img class="group list-group-image" src="images/demo1.jpg" alt="" />
-                            <div class="caption">
-                                <h4 class="group inner list-group-item-heading">Lorem ipsum dolor sit.</h4>
-                                <p class="group inner list-group-item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel nostrum adipisci ipsam dolore ullam aperiam autem nesciunt soluta. Rerum illo facilis accusantium quis ducimus earum cumque provident porro nihil quo.</p>
-                                <div class="row">
-                                    <div class="col-xs-12 col-md-6">
-                                        <p class="lead">R$999.999,00</p>
-                                    </div>
-                                    <div class="col-xs-12 col-md-6">
-                                        <a class="btn btn-success">Veja mais</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div><!-- /.item -->
-                </div>
-            </div>
-        </div>
-    </div>
+    <div class="container" ng-view></div>
 
     <div class="container">
         <hr>
@@ -208,5 +49,8 @@
     <script src="vendor/angular/angular.js"></script>
     <script src="vendor/angular/angular-route.js"></script>
     <script src="js/main.js"></script>
+    
+    <script src="app/app.js"></script>
+    <script src="app/home/home.controller.js"></script>
 </body>
 </html>
