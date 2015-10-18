@@ -34,117 +34,15 @@
         </div>
 
         <div class="row">
-            <div class="item  col-xs-4 col-lg-4">
+            <div class="item col-xs-4 col-lg-4" ng-repeat="car in cars">
                 <div class="thumbnail">
-                    <img class="group list-group-image" src="images/demo1.jpg" alt="" />
+                    <img class="group list-group-image" ng-src="{{ car.cover_image }}" alt="" />
                     <div class="caption">
-                        <h4 class="group inner list-group-item-heading">Lorem ipsum dolor sit.</h4>
-                        <p class="group inner list-group-item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel nostrum adipisci ipsam dolore ullam aperiam autem nesciunt soluta. Rerum illo facilis accusantium quis ducimus earum cumque provident porro nihil quo.</p>
+                        <h4 class="group inner list-group-item-heading">{{ car.brand }} - {{ car.model }} {{ car.year }}</h4>
+                        <p class="group inner list-group-item-text">{{ car.description }}</p>
                         <div class="row">
                             <div class="col-xs-12 col-md-6">
-                                <p class="lead">R$999.999,00</p>
-                            </div>
-                            <div class="col-xs-12 col-md-6">
-                                <a class="btn btn-success">Veja mais</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div><!-- /.item -->
-            <div class="item  col-xs-4 col-lg-4">
-                <div class="thumbnail">
-                    <img class="group list-group-image" src="images/demo1.jpg" alt="" />
-                    <div class="caption">
-                        <h4 class="group inner list-group-item-heading">Lorem ipsum dolor sit.</h4>
-                        <p class="group inner list-group-item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel nostrum adipisci ipsam dolore ullam aperiam autem nesciunt soluta. Rerum illo facilis accusantium quis ducimus earum cumque provident porro nihil quo.</p>
-                        <div class="row">
-                            <div class="col-xs-12 col-md-6">
-                                <p class="lead">R$999.999,00</p>
-                            </div>
-                            <div class="col-xs-12 col-md-6">
-                                <a class="btn btn-success">Veja mais</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div><!-- /.item -->
-            <div class="item  col-xs-4 col-lg-4">
-                <div class="thumbnail">
-                    <img class="group list-group-image" src="images/demo1.jpg" alt="" />
-                    <div class="caption">
-                        <h4 class="group inner list-group-item-heading">Lorem ipsum dolor sit.</h4>
-                        <p class="group inner list-group-item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel nostrum adipisci ipsam dolore ullam aperiam autem nesciunt soluta. Rerum illo facilis accusantium quis ducimus earum cumque provident porro nihil quo.</p>
-                        <div class="row">
-                            <div class="col-xs-12 col-md-6">
-                                <p class="lead">R$999.999,00</p>
-                            </div>
-                            <div class="col-xs-12 col-md-6">
-                                <a class="btn btn-success">Veja mais</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div><!-- /.item -->
-            <div class="item  col-xs-4 col-lg-4">
-                <div class="thumbnail">
-                    <img class="group list-group-image" src="images/demo1.jpg" alt="" />
-                    <div class="caption">
-                        <h4 class="group inner list-group-item-heading">Lorem ipsum dolor sit.</h4>
-                        <p class="group inner list-group-item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel nostrum adipisci ipsam dolore ullam aperiam autem nesciunt soluta. Rerum illo facilis accusantium quis ducimus earum cumque provident porro nihil quo.</p>
-                        <div class="row">
-                            <div class="col-xs-12 col-md-6">
-                                <p class="lead">R$999.999,00</p>
-                            </div>
-                            <div class="col-xs-12 col-md-6">
-                                <a class="btn btn-success">Veja mais</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div><!-- /.item -->
-            <div class="item  col-xs-4 col-lg-4">
-                <div class="thumbnail">
-                    <img class="group list-group-image" src="images/demo1.jpg" alt="" />
-                    <div class="caption">
-                        <h4 class="group inner list-group-item-heading">Lorem ipsum dolor sit.</h4>
-                        <p class="group inner list-group-item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel nostrum adipisci ipsam dolore ullam aperiam autem nesciunt soluta. Rerum illo facilis accusantium quis ducimus earum cumque provident porro nihil quo.</p>
-                        <div class="row">
-                            <div class="col-xs-12 col-md-6">
-                                <p class="lead">R$999.999,00</p>
-                            </div>
-                            <div class="col-xs-12 col-md-6">
-                                <a class="btn btn-success">Veja mais</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div><!-- /.item -->
-            <div class="item  col-xs-4 col-lg-4">
-                <div class="thumbnail">
-                    <img class="group list-group-image" src="images/demo1.jpg" alt="" />
-                    <div class="caption">
-                        <h4 class="group inner list-group-item-heading">Lorem ipsum dolor sit.</h4>
-                        <p class="group inner list-group-item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel nostrum adipisci ipsam dolore ullam aperiam autem nesciunt soluta. Rerum illo facilis accusantium quis ducimus earum cumque provident porro nihil quo.</p>
-                        <div class="row">
-                            <div class="col-xs-12 col-md-6">
-                                <p class="lead">R$999.999,00</p>
-                            </div>
-                            <div class="col-xs-12 col-md-6">
-                                <a class="btn btn-success">Veja mais</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div><!-- /.item -->
-            <div class="item  col-xs-4 col-lg-4">
-                <div class="thumbnail">
-                    <img class="group list-group-image" src="images/demo1.jpg" alt="" />
-                    <div class="caption">
-                        <h4 class="group inner list-group-item-heading">Lorem ipsum dolor sit.</h4>
-                        <p class="group inner list-group-item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel nostrum adipisci ipsam dolore ullam aperiam autem nesciunt soluta. Rerum illo facilis accusantium quis ducimus earum cumque provident porro nihil quo.</p>
-                        <div class="row">
-                            <div class="col-xs-12 col-md-6">
-                                <p class="lead">R$999.999,00</p>
+                                <p class="lead">{{ car.currency }}{{ car.value }}</p>
                             </div>
                             <div class="col-xs-12 col-md-6">
                                 <a class="btn btn-success">Veja mais</a>
