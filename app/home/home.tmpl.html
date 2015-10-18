@@ -34,23 +34,7 @@
         </div>
 
         <div class="row">
-            <div class="item col-xs-4 col-lg-4" ng-repeat="car in cars | filter:filterKeywords">
-                <div class="thumbnail">
-                    <img class="group list-group-image" ng-src="{{ car.cover_image }}" alt="" />
-                    <div class="caption">
-                        <h4 class="group inner list-group-item-heading">{{ car.brand }} - {{ car.model }} {{ car.year }}</h4>
-                        <p class="group inner list-group-item-text">{{ car.description|truncate:160 }}</p>
-                        <div class="row">
-                            <div class="col-xs-12 col-md-6">
-                                <p class="lead">{{ car.currency }}{{ car.value }}</p>
-                            </div>
-                            <div class="col-xs-12 col-md-6">
-                                <a class="btn btn-success">Veja mais</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div><!-- /.item -->
+            <car ng-repeat="car in cars | filter:filterKeywords"></car>
         </div>
     </div>
 </div>
