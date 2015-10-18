@@ -5,9 +5,11 @@
     .module('app')
     .controller('HomeController', HomeController);
 
-  HomeController.$inject = ['$scope'];
+  HomeController.$inject = ['$scope', '$filter'];
 
-  function HomeController($scope) {
+  function HomeController($scope, $filter) {
+    var orderBy = $filter('orderBy');
+
     $scope.cars = [
       {
         "id": 1,
@@ -15,7 +17,7 @@
         "brand": "Ford",
         "year": 2015,
         "currency": "R$",
-        "value": 20000,
+        "value": 40000,
         "seller": "Revenda Herbie",
         "cover_image": "images/demo1.jpg",
         "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel nostrum adipisci ipsam dolore ullam aperiam autem nesciunt soluta. Rerum illo facilis accusantium quis ducimus earum cumque provident porro nihil quo.",
@@ -54,6 +56,12 @@
         "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel nostrum adipisci ipsam dolore ullam aperiam autem nesciunt soluta. Rerum illo facilis accusantium quis ducimus earum cumque provident porro nihil quo.",
       }
     ];
+
+    $scope.sortPredicate = '';
+
+    $scope.sortCars = function() {
+      $scope.cars = orderBy($scope.cars, $scope.sortPredicate);
+    };
   }
 })();
 
