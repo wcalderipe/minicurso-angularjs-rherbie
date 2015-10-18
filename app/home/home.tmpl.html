@@ -19,7 +19,7 @@
                         </div>
 
                         <div class="form-group">
-                            <input type="text" class="form-control col-xs-12" placeholder="filtrar...">
+                            <input type="text" class="form-control col-xs-12" ng-model="filterKeywords" placeholder="filtrar...">
                         </div>
                     </form>
                 </div>
@@ -34,7 +34,7 @@
         </div>
 
         <div class="row">
-            <div class="item col-xs-4 col-lg-4" ng-repeat="car in cars">
+            <div class="item col-xs-4 col-lg-4" ng-repeat="car in cars | filter:filterKeywords">
                 <div class="thumbnail">
                     <img class="group list-group-image" ng-src="{{ car.cover_image }}" alt="" />
                     <div class="caption">

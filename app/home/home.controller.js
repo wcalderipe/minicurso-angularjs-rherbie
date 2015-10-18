@@ -23,7 +23,7 @@
       {
         "id": 2,
         "model": "Lorem ipsum dolor",
-        "brand": "Ford",
+        "brand": "Volkswagen",
         "year": 2015,
         "currency": "R$",
         "value": 34500,
@@ -34,7 +34,7 @@
       {
         "id": 3,
         "model": "Lorem ipsum dolor",
-        "brand": "Ford",
+        "brand": "Honda",
         "year": 2015,
         "currency": "R$",
         "value": 34500,
@@ -45,7 +45,7 @@
       {
         "id": 4,
         "model": "Lorem ipsum dolor",
-        "brand": "Ford",
+        "brand": "Chevrolet",
         "year": 2015,
         "currency": "R$",
         "value": 34500,
