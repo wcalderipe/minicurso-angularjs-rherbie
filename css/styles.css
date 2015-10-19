@@ -58,3 +58,7 @@ body {
 .list-group-item-text {
     margin: 0 0 11px;
 }
+
+.map-section {
+    margin-bottom: 40px;
+}
