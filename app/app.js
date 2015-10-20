@@ -14,6 +14,10 @@
           templateUrl: 'app/contact/contact.tmpl.html',
           controller: 'ContactController'
         })
+        .when('/cars/:carId', {
+          templateUrl: 'app/cars/show_car.tmpl.html',
+          controller: 'ShowCarController'
+        })
         .otherwise({
           redirectTo: '/home'
         });
